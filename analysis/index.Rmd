@@ -10,6 +10,8 @@ editor_options:
 
 Welcome to my research website.
 
+WELCOME TO MY FIRST WORKFLOWR WEBSITE!
+
 ```{r}
 #wflow_build()
 data("ToothGrowth")
@@ -25,6 +27,9 @@ write.csv(ToothGrowth, file = "data/teeth.csv")
 ```
 
 ```{r}
-wflow_open("analysis/teeth.Rmd")
+#wflow_open("analysis/teeth.Rmd")
 ```
+*[Teeth growth analysis](teeth.html)
+
+
 
