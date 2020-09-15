@@ -9,3 +9,22 @@ editor_options:
 ---
 
 Welcome to my research website.
+
+```{r}
+#wflow_build()
+data("ToothGrowth")
+head(ToothGrowth)
+
+summary(ToothGrowth)
+
+str(ToothGrowth)
+
+#saving file to relative path!!
+write.csv(ToothGrowth, file = "data/teeth.csv")
+
+```
+
+```{r}
+wflow_open("analysis/teeth.Rmd")
+```
+
