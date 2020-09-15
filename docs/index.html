@@ -424,16 +424,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomDJCSanchezmyprojecttreedeca7e95f862b28e0d3245532f1394766f1d1746targetblankdeca7e9a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/DJCSanchez/myproject/tree/deca7e95f862b28e0d3245532f1394766f1d1746" target="_blank">deca7e9</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomDJCSanchezmyprojecttreed1e7261ac42308510e8c6e15f7c6619945af1e5btargetblankd1e7261a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/DJCSanchez/myproject/tree/d1e7261ac42308510e8c6e15f7c6619945af1e5b" target="_blank">d1e7261</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomDJCSanchezmyprojecttreedeca7e95f862b28e0d3245532f1394766f1d1746targetblankdeca7e9a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomDJCSanchezmyprojecttreed1e7261ac42308510e8c6e15f7c6619945af1e5btargetblankd1e7261a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/DJCSanchez/myproject/tree/deca7e95f862b28e0d3245532f1394766f1d1746" target="_blank">deca7e9</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/DJCSanchez/myproject/tree/d1e7261ac42308510e8c6e15f7c6619945af1e5b" target="_blank">d1e7261</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -441,6 +441,7 @@ Note that you need to be careful to ensure that all relevant files for the analy
 <pre><code>
 Ignored files:
     Ignored:    .Rproj.user/
+    Ignored:    analysis/site_libs/
 
 Untracked files:
     Untracked:  analysis/docs/
@@ -486,6 +487,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/DJCSanchez/myproject/blob/d1e7261ac42308510e8c6e15f7c6619945af1e5b/analysis/index.Rmd" target="_blank">d1e7261</a>
+</td>
+<td>
+Daniel Sanchez
+</td>
+<td>
+2020-09-15
+</td>
+<td>
+wflow_publish(“analysis/index.Rmd”)
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/DJCSanchez/myproject/e3c0eeb08a90558b393ffcbd9e0218503b7c2d46/docs/index.html" target="_blank">e3c0eeb</a>
+</td>
+<td>
+Daniel Sanchez
+</td>
+<td>
+2020-09-15
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 html
@@ -545,6 +580,7 @@ Start workflowr project.
 </div>
 </div>
 <p>Welcome to my research website.</p>
+<p>WELCOME TO MY FIRST WORKFLOWR WEBSITE!</p>
 <pre class="r"><code>#wflow_build()
 data(&quot;ToothGrowth&quot;)
 head(ToothGrowth)</code></pre>
@@ -570,11 +606,8 @@ head(ToothGrowth)</code></pre>
  $ dose: num  0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 ...</code></pre>
 <pre class="r"><code>#saving file to relative path!!
 write.csv(ToothGrowth, file = &quot;data/teeth.csv&quot;)</code></pre>
-<pre class="r"><code>wflow_open(&quot;analysis/teeth.Rmd&quot;)</code></pre>
-<pre><code>wflow_open:
-- Existing file(s):
-  C:/Users/danie/Research Data/Git/myproject/analysis/teeth.Rmd
-- Same working directory: C:/Users/danie/Research Data/Git/myproject</code></pre>
+<pre class="r"><code>#wflow_open(&quot;analysis/teeth.Rmd&quot;)</code></pre>
+<p>*<a href="teeth.html">Teeth growth analysis</a></p>
 <br>
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
