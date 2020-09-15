@@ -32,7 +32,9 @@ mean(teeth$len[perm == "OJ"]) - mean(teeth$len[perm == "VC"])
 
 ```
 ```{r}
+#wflow_publish("analysis/teeth.Rmd" , message = "Analyze teeth growth")
 
+#wflow_status()
 ```
 
 
