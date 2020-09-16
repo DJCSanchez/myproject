@@ -8,28 +8,38 @@ editor_options:
   chunk_output_type: console
 ---
 
+### Daniel Sanchez 
+
 Welcome to my research website.
 
 WELCOME TO MY FIRST WORKFLOWR WEBSITE!
 
-```{r}
-#wflow_build()
-data("ToothGrowth")
-head(ToothGrowth)
 
-summary(ToothGrowth)
+#### First Year Integrative Biology student
 
-str(ToothGrowth)
+```{r, echo=FALSE}
 
 #saving file to relative path!!
 write.csv(ToothGrowth, file = "data/teeth.csv")
 
 ```
 
-```{r}
-#wflow_open("analysis/teeth.Rmd")
+```{r, echo=FALSE}
+
 ```
-*[Teeth growth analysis](teeth.html)
+#### Link to Various Analyses
+
+*[My Teeth growth analysis](teeth.html)
+
+*[Songhan Zhang Project of teeth growth](https://songhanz.github.io/myproject/)
+
+*[Zach Weber Project of teeth growth analysis](https://zweber-compbio.github.io/Test-WorkflowR-Project/)
+
+*[Olivia Pura Project of teeth growth analysis](https://oliviapura.github.io/myproject/)
+
+*[Hsiang-Yu Tsai Project of teeth growth analysis](https://manto1213.github.io/myproject/)
+
+*[Monty Kwan Project of teeth growth](https://kwanm.github.io/my_project/)
 
 
 
