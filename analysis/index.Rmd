@@ -31,15 +31,5 @@ write.csv(ToothGrowth, file = "data/teeth.csv")
 
 *[My Teeth growth analysis](teeth.html)
 
-*[Songhan Zhang Project of teeth growth](https://songhanz.github.io/myproject/)
-
-*[Zach Weber Project of teeth growth analysis](https://zweber-compbio.github.io/Test-WorkflowR-Project/)
-
-*[Olivia Pura Project of teeth growth analysis](https://oliviapura.github.io/myproject/)
-
-*[Hsiang-Yu Tsai Project of teeth growth analysis](https://manto1213.github.io/myproject/)
-
-*[Monty Kwan Project of teeth growth](https://kwanm.github.io/my_project/)
-
-
+*[Niksa Praljak](https://praljakreps.github.io/myproject/)
 
